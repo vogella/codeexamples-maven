@@ -5,11 +5,11 @@
   <parent>
     <groupId>com.vogella</groupId>
     <artifactId>com.vogella.parent</artifactId>
-    <version>1.5</version>
+    <version>1.6-SNAPSHOT</version>
   </parent>
 
   <groupId>com.vogella</groupId>
   <artifactId>com.vogella.maven.api</artifactId>
-  <version>1.5</version>
+  <version>1.6-SNAPSHOT</version>
 
 </project>
