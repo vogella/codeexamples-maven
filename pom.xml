@@ -20,9 +20,9 @@
 	</properties>
 
 	<scm>
-		<url>https://github.com/vogellacompany/codeexamples-maven</url>
-		<developerConnection>scm:git:https://github.com/vogellacompany/codeexamples-maven</developerConnection>
-		<connection>scm:git:https://github.com/vogellacompany/codeexamples-maven</connection>
+		<connection>scm:git:git@github.com:vogellacompany/codeexamples-maven.git</connection>
+		<url>scm:git:git@github.com:vogellacompany/codeexamples-maven.git</url>
+		<developerConnection>scm:git:git@github.com:vogellacompany/codeexamples-maven.git</developerConnection>
 		<tag>v1.5</tag>
 	</scm>
 
