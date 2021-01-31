@@ -5,7 +5,7 @@
 
 	<groupId>com.vogella.maven.first</groupId>
 	<artifactId>com.vogella.maven.first</artifactId>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 
 	<name>com.vogella.maven.first</name>
 	<description>This is a description</description>
