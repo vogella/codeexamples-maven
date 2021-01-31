@@ -5,7 +5,7 @@
 
 	<groupId>com.vogella</groupId>
 	<artifactId>com.vogella.parent</artifactId>
-	<version>1.5-SNAPSHOT</version>
+	<version>1.5</version>
 	<packaging>pom</packaging>
 
 	<name>com.vogella.parent</name>
@@ -16,13 +16,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
+		<project.scm.id>gitthub</project.scm.id>
 	</properties>
 
 	<scm>
 		<url>https://github.com/vogella/codeexamples-maven</url>
-		<developerConnection>scm:git:https://github.com/vogella/codeexamples-maven</developerConnection>
-		<connection>scm:git:https://github.com/vogella/codeexamples-maven</connection>
-		<tag>v1.4</tag>
+		<developerConnection>scm:git:ssh://github.com/vogella/codeexamples-maven</developerConnection>
+		<connection>scm:git:ssh://github.com/vogella/codeexamples-maven</connection>
+		<tag>v1.5</tag>
 	</scm>
 
 	<!--1-->
