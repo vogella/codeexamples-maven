@@ -22,8 +22,8 @@
 		<url>https://github.com/vogella/codeexamples-maven</url>
 		<developerConnection>scm:git:https://github.com/vogella/codeexamples-maven</developerConnection>
 		<connection>scm:git:https://github.com/vogella/codeexamples-maven</connection>
-	  <tag>v1.0</tag>
-  </scm>
+		<tag>v1.0</tag>
+	</scm>
 
 	<!--1-->
 	<build>
