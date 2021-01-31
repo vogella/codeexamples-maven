@@ -5,7 +5,7 @@
 
 	<groupId>com.vogella</groupId>
 	<artifactId>com.vogella.parent</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>com.vogella.parent</name>
@@ -20,8 +20,8 @@
 
 	<scm>
 		<url>https://github.com/vogella/codeexamples-maven</url>
-		<developerConnection>scm:git:ssh://github.com/vogella/codeexamples-maven</developerConnection>
-		<connection>scm:git:ssh://github.com/vogella/codeexamples-maven</connection>
+		<developerConnection>scm:git:https://github.com/vogella/codeexamples-maven</developerConnection>
+		<connection>scm:git:https://github.com/vogella/codeexamples-maven</connection>
 		<tag>v1.0</tag>
 	</scm>
 
