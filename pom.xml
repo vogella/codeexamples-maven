@@ -19,9 +19,9 @@
 	</properties>
 
 	<scm>
-		<url>https://github.com/vogella/codeexamples-maven</url>
-		<developerConnection>scm:git:https://github.com/vogella/codeexamples-maven</developerConnection>
-		<connection>scm:git:https://github.com/vogella/codeexamples-maven</connection>
+		<url>git://github.com/vogella/codeexamples-maven</url>
+		<developerConnection>scm:git:git://github.com/vogella/codeexamples-maven</developerConnection>
+		<connection>scm:git:git://github.com/vogella/codeexamples-maven</connection>
 		<tag>v1.0</tag>
 	</scm>
 
