@@ -19,7 +19,8 @@
 	</properties>
 
 	<scm>
-		<developerConnection>scm:git:git://github.com/vogella/codeexamples-maven</developerConnection>
+		<developerConnection>scm:git:https://github.com/vogella/codeexamples-maven</developerConnection>
+		<connection>scm:git:https://github.com/vogella/codeexamples-maven</connection>
 	</scm>
 
 	<!--1-->
