@@ -21,8 +21,8 @@
 
 	<scm>
 		<url>https://github.com/vogellacompany/codeexamples-maven</url>
-		<developerConnection>scm:git:ssh://github.com/vogellacompany/codeexamples-maven</developerConnection>
-		<connection>scm:git:ssh://github.com/vogellacompany/codeexamples-maven</connection>
+		<developerConnection>scm:git:https://github.com/vogellacompany/codeexamples-maven</developerConnection>
+		<connection>scm:git:https://github.com/vogellacompany/codeexamples-maven</connection>
 		<tag>v1.5</tag>
 	</scm>
 
