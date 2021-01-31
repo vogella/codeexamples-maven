@@ -74,4 +74,8 @@
 			</dependency>
 
 	</dependencies>
+	<scm>
+		<url>https://github.com/vogella/codeexamples-maven</url>
+		<connection>https://github.com/vogella/codeexamples-maven.git</connection>
+	</scm>
 </project>
