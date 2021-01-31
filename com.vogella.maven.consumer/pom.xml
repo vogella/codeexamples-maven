@@ -6,12 +6,12 @@
 	<parent>
 		<groupId>com.vogella</groupId>
 		<artifactId>com.vogella.parent</artifactId>
-		<version>1.4</version>
+		<version>1.5-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.vogella</groupId>
 	<artifactId>com.vogella.maven.consumer</artifactId>
-	<version>1.4</version>
+	<version>1.5-SNAPSHOT</version>
 
 
 	<name>com.vogella.maven.consumer</name>
@@ -61,7 +61,7 @@
 		<dependency>
 			<groupId>com.vogella</groupId>
 			<artifactId>com.vogella.maven.api</artifactId>
-			<version>1.4</version>
+			<version>1.5-SNAPSHOT</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 			
