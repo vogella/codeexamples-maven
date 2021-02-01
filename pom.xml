@@ -5,7 +5,7 @@
 
 	<groupId>com.vogella</groupId>
 	<artifactId>com.vogella.parent</artifactId>
-	<version>1.5-SNAPSHOT</version>
+	<version>1.6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>com.vogella.parent</name>
@@ -17,12 +17,37 @@
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 		<project.scm.id>gitthub</project.scm.id>
+		<excludedtests>slow</excludedtests>
 	</properties>
 
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<!-- potential properties here-->
+			</properties>
+		</profile>
+		<profile>
+			<id>notests</id>
+			<properties>
+				<skipTests>true</skipTests>
+			</properties>
+		</profile>
+		<profile>
+			<id>slowtest</id>
+			<properties>
+				<excludedtests>NONE</excludedtests>
+			</properties>
+		</profile>
+	</profiles>
+
 	<scm>
-		<url>https://github.com/vogella/codeexamples-maven</url>
-		<developerConnection>scm:git:ssh://github.com/vogellacompany/codeexamples-maven</developerConnection>
-		<connection>scm:git:ssh://github.com/vogellacompany/codeexamples-maven</connection>
+		<connection>scm:git:git@github.com:vogellacompany/codeexamples-maven.git</connection>
+		<url>scm:git:git@github.com:vogellacompany/codeexamples-maven.git</url>
+		<developerConnection>scm:git:git@github.com:vogellacompany/codeexamples-maven.git</developerConnection>
 		<tag>v1.5</tag>
 	</scm>
 
@@ -31,7 +56,10 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.22.2</version>
+				<version>3.0.0-M5</version>
+				<configuration>
+					<excludedGroups>${excludedtests}</excludedGroups>
+				</configuration>
 			</plugin>
 			<plugin>
 				<artifactId>maven-failsafe-plugin</artifactId>
